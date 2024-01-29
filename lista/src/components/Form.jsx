@@ -16,8 +16,8 @@ function Form(props){
 
     return(
         <div>
-            <input onChange={mudar} type="text"/>
-            <button onClick={enviar}>Criar</button>
+            <input onChange={mudar} className='rounded-start-pill' type="text"/>
+            <button onClick={enviar} className='rounded-end-pill'>Criar</button>
         </div>
     )
 }
